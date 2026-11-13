@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Departures">
+<title>Redhill departures</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAADjElEQVR42u3d0W3bMBQFUKboFB2gXcdbFMg0/QrQLQp0mnSArtF+NBFSyqH8RFKi5HO+LJWlGFhwLl+e7ZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB49VD+58+fXh78+n39TPmwfoAJN5hwzc0xTTFNlJ0pWxxvwhEmLNwfH7x44uag6c3x9gXn3+PsTPlwcbwJR5gQ7FZMaLdiQrsV7FawW7G5ONxu5WPlzfX89BpeLlcOe9j+iodbYasrVgXSaRHXp760D1N/flRdcYO4t/sKsyfly6NAikDKYQLp219pD5f8sEeYqrziBnFv9xVmV9w0kEbDTuX4Fdlq4wA4QiIur2H1CmOBtJy25uErG78YjhYT7mLcK1+xeSDNFnzLCpsH0uiTIpAikDJOIC2nrXn4ioaj6ITRKzYPpCtW2DyQRp8U/Ryk7v0cU9iZbsDsTHY4bxQoj5//l8rxi0taXGF9t0T0R4i2X0SflMUFrLk5shi8GMXnm5FodI/W4xc3C4u7leh+avfyeXR/ZLeC3Qrj3BzRKF5fS64cv2K3Et1P7V4+jz4pNbuV2n6O8i/1dMBy9YANIiPuVhYDaTTu1QfS5uXz5vlRIEUgxc2xOpA2T2fbl8+b58czBVLoVj7vXUuOlopPWT7v/SeIY+xW6ltpzlc+7/0nCLsV7FY48W6lvpXmfOXz3n+CSP3K52nz6nW0YN98wgF1KvkfrHxeWUuO5s1DBFLlcwRSBNLN+jkq8+YhAum4/Rwn6H4Y/wM/9gqwJ28wbr7CEwTS+dMqcyCQosG4VSAdv5+jeSCdn4HU/eOto++8i3ZLRCc8QcdJZUPJPv0c9/DhLbt3nDQv8OvnwG4FH95y3O7z+hU2L/DvWT7PfikuNkNEuyXq5+99xegCVgxITd+junr+lt+3Mk9nvbsl6vuBfd+KQIpAyrDft7L9x1v7vhXfDkny7ZAmTL4d0oR2K9itYLdiL3B3uxWvHAikJhRIEUgRSE2ofA4AAAAAAAAAQLrxHW9PX18ePH7/70x2ePuAO5zwvTecFd5/Vh7QfMI1N8f0Q04/6tsz2eEtAzL3MOG3n6nQ33u13bc8IKXGE2owJjXuIZ1eJ6fH05ns8MYBdzhhoYXzvY7O8oDmEwIAQFIEG7Vm1bvEpAiWDlqz6l1iGn9CRTCSIlh4wt4lJkUwAAAAAAAAAAAAAAAAAACAkfwFGaN/S0Qr9iAAAAAASUVORK5CYII=">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAADjElEQVR42u3d0W3bMBQFUKboFB2gXcdbFMg0/QrQLQp0mnSArtF+NBFSyqH8RFKi5HO+LJWlGFhwLl+e7ZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB49VD+58+fXh78+n39TPmwfoAJN5hwzc0xTTFNlJ0pWxxvwhEmLNwfH7x44uag6c3x9gXn3+PsTPlwcbwJR5gQ7FZMaLdiQrsV7FawW7G5ONxu5WPlzfX89BpeLlcOe9j+iodbYasrVgXSaRHXp760D1N/flRdcYO4t/sKsyfly6NAikDKYQLp219pD5f8sEeYqrziBnFv9xVmV9w0kEbDTuX4Fdlq4wA4QiIur2H1CmOBtJy25uErG78YjhYT7mLcK1+xeSDNFnzLCpsH0uiTIpAikDJOIC2nrXn4ioaj6ITRKzYPpCtW2DyQRp8U/Ryk7v0cU9iZbsDsTHY4bxQoj5//l8rxi0taXGF9t0T0R4i2X0SflMUFrLk5shi8GMXnm5FodI/W4xc3C4u7leh+avfyeXR/ZLeC3Qrj3BzRKF5fS64cv2K3Et1P7V4+jz4pNbuV2n6O8i/1dMBy9YANIiPuVhYDaTTu1QfS5uXz5vlRIEUgxc2xOpA2T2fbl8+b58czBVLoVj7vXUuOlopPWT7v/SeIY+xW6ltpzlc+7/0nCLsV7FY48W6lvpXmfOXz3n+CSP3K52nz6nW0YN98wgF1KvkfrHxeWUuO5s1DBFLlcwRSBNLN+jkq8+YhAum4/Rwn6H4Y/wM/9gqwJ28wbr7CEwTS+dMqcyCQosG4VSAdv5+jeSCdn4HU/eOto++8i3ZLRCc8QcdJZUPJPv0c9/DhLbt3nDQv8OvnwG4FH95y3O7z+hU2L/DvWT7PfikuNkNEuyXq5+99xegCVgxITd+junr+lt+3Mk9nvbsl6vuBfd+KQIpAyrDft7L9x1v7vhXfDkny7ZAmTL4d0oR2K9itYLdiL3B3uxWvHAikJhRIEUgRSE2ofA4AAAAAAAAAQLrxHW9PX18ePH7/70x2ePuAO5zwvTecFd5/Vh7QfMI1N8f0Q04/6tsz2eEtAzL3MOG3n6nQ33u13bc8IKXGE2owJjXuIZ1eJ6fH05ns8MYBdzhhoYXzvY7O8oDmEwIAQFIEG7Vm1bvEpAiWDlqz6l1iGn9CRTCSIlh4wt4lJkUwAAAAAAAAAAAAAAAAAACAkfwFGaN/S0Qr9iAAAAAASUVORK5CYII=">
+<style>
+  :root {
+    --amber: #ffb000;
+    --amber-dim: #b07a00;
+    --amber-faint: #4a3300;
+    --orange: #ff8a1f;
+    --red: #ff4d3d;
+    --green: #3ddc6a;
+    --blue: #5ab0ff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #000; }
+  body {
+    color: var(--amber);
+    font-family: "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button { font: inherit; color: inherit; }
+  .hidden { display: none !important; }
+
+  /* ---------- Board ---------- */
+  #app {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+    display: flex; flex-direction: column;
+    padding: 8px 12px 6px;
+    padding: calc(env(safe-area-inset-top) + 8px) calc(env(safe-area-inset-right) + 12px) calc(env(safe-area-inset-bottom) + 6px) calc(env(safe-area-inset-left) + 12px);
+    font-size: 18px;
+    font-size: clamp(15px, 4.9vw, 24px);
+    text-shadow: 0 0 .35em rgba(255, 176, 0, .35);
+    transition: opacity 1.5s;
+  }
+  body.night #app { opacity: .35; }
+
+  .top {
+    display: flex; align-items: center; flex: none;
+    padding-bottom: .35em; border-bottom: 2px solid var(--amber-faint);
+  }
+  .station { flex: 1; min-width: 0; }
+  .station .name { display: block; font-size: 1.25em; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .station .sub { display: block; font-size: .6em; color: var(--amber-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: .15em; }
+  .clock { flex: none; font-size: 1.6em; line-height: 1; margin-left: .4em; font-variant-numeric: tabular-nums; }
+  .clock .sec { font-size: .55em; color: var(--amber-dim); }
+  .iconbtn {
+    flex: none; background: none; border: 0; padding: .25em; margin-left: .35em;
+    color: var(--amber-dim); line-height: 0; cursor: pointer; border-radius: 6px;
+  }
+  .iconbtn svg { width: 1.15em; height: 1.15em; }
+  .iconbtn:focus-visible { outline: 2px solid var(--amber); }
+
+  .banner {
+    flex: none; margin-top: .45em; padding: .45em .6em; border-radius: 6px;
+    font-size: .68em; font-weight: 600; line-height: 1.35; text-shadow: none;
+    border: 1px solid var(--red); background: #1c0705; color: #ffd2cb;
+  }
+  .banner.info { border-color: #2d6fa8; background: #061320; color: #d3e9ff; }
+  .banner.warn { border-color: #8a5a00; background: #1d1300; color: #ffe0a3; }
+  .banner .linkbtn {
+    background: none; border: 0; padding: 0; margin-left: .5em; color: inherit;
+    text-decoration: underline; font-weight: 700; cursor: pointer;
+  }
+
+  #board { position: relative; flex: 1; min-height: 0; overflow: hidden; padding-top: .2em; }
+  #board.stale #rows { opacity: .45; }
+  /* Subtle LED-panel texture */
+  #board::after {
+    content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; pointer-events: none;
+    background-image: radial-gradient(circle, rgba(0,0,0,0) 0.7px, rgba(0,0,0,.28) 1.3px);
+    background-size: 3px 3px;
+  }
+  /* The texture only looks right on sharp screens */
+  @media (-webkit-max-device-pixel-ratio: 1.4), (max-resolution: 1.4dppx) {
+    #board::after { display: none; }
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 3.05em minmax(0, 1fr) auto;
+    grid-template-areas: "t d m" ". e p";
+    grid-column-gap: .55em; column-gap: .55em;
+    align-items: baseline;
+    padding: .38em 0 .34em;
+    border-bottom: 1px solid #1d1400;
+  }
+  .row > div { min-width: 0; }
+  .row .t { grid-area: t; font-variant-numeric: tabular-nums; }
+  .row .d { grid-area: d; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row .d .via { font-size: .72em; color: var(--amber-dim); margin-left: .4em; }
+  .row .m { grid-area: m; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .row .e { grid-area: e; font-size: .7em; white-space: nowrap; }
+  .row .p { grid-area: p; font-size: .7em; text-align: right; white-space: nowrap; color: var(--amber-dim); }
+  .row .p[data-kind="plat"]::before { content: 'Plat '; }
+  .row .p[data-kind="none"] { visibility: hidden; }
+  .row .e .lbl { color: inherit; }
+  .e.ok { color: var(--amber-dim); }
+  .e.late { color: var(--orange); text-shadow: 0 0 .35em rgba(255, 138, 31, .4); }
+  .e.bad { color: var(--red); text-shadow: 0 0 .35em rgba(255, 77, 61, .4); }
+  .row.cancelled .t { text-decoration: line-through; color: var(--amber-dim); }
+  .row.cancelled .d { color: var(--amber-dim); }
+  .row.head { display: none; }
+
+  .row .x { grid-column: 2 / -1; font-size: .72em; margin-top: .3em; line-height: 1.35; }
+  .x .calling { display: flex; align-items: baseline; }
+  .x .calling .lbl { flex: none; color: var(--amber-dim); margin-right: .45em; }
+  .x .info { color: var(--amber-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: .1em; }
+  .x .reason { color: var(--red); text-shadow: 0 0 .35em rgba(255, 77, 61, .35); margin-top: .1em; }
+  .x .reason.late { color: var(--orange); }
+
+  .marquee { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; }
+  .marquee .track { display: inline-block; white-space: nowrap; will-change: transform; }
+  .marquee .mq { display: inline-block; white-space: nowrap; }
+  .marquee.wrap { white-space: normal; }
+  .marquee.wrap .mq { display: inline; white-space: normal; }
+
+  .empty { padding: 1.4em .5em; text-align: center; color: var(--amber-dim); font-size: .85em; line-height: 1.4; }
+
+  #ticker { flex: none; border-top: 2px solid var(--amber-faint); padding: .35em 0 .25em; font-size: .7em; }
+
+  .foot {
+    flex: none; display: flex; align-items: center; padding-top: .3em;
+    font-size: .58em; font-weight: 600; color: var(--amber-dim); text-shadow: none; white-space: nowrap;
+  }
+  .foot .status { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .dot {
+    display: inline-block; width: .7em; height: .7em; border-radius: 50%; margin-right: .4em; vertical-align: -.03em;
+    background: var(--green); box-shadow: 0 0 .45em var(--green);
+  }
+  .dot.warn { background: var(--orange); box-shadow: 0 0 .45em var(--orange); }
+  .dot.bad { background: var(--red); box-shadow: 0 0 .45em var(--red); }
+  .dot.demo { background: var(--blue); box-shadow: 0 0 .45em var(--blue); }
+  .foot .wake { margin-left: .8em; background: none; border: 0; padding: 0; color: inherit; cursor: pointer; }
+  .foot .iconbtn { margin-left: .5em; padding: .15em; }
+  .foot .iconbtn svg { width: 1.6em; height: 1.6em; }
+
+  /* Wider screens (landscape phone, tablet): classic one-line board */
+  @media (min-width: 560px) {
+    #app { font-size: 20px; font-size: clamp(16px, min(3.2vw, 5.6vh), 36px); }
+    .row {
+      grid-template-columns: 3.05em minmax(0, 1fr) 2.6em 5.6em 4.3em;
+      grid-template-areas: "t d p e m";
+    }
+    .row .e, .row .p { font-size: 1em; }
+    .row .p { text-align: center; color: var(--amber); }
+    .row .p[data-kind="plat"]::before { content: ''; }
+    .row .p[data-kind="none"] { visibility: visible; }
+    .row .e .lbl { display: none; }
+    .e.ok { color: var(--amber); }
+    .row.head { display: grid; padding: .1em 0 .25em; border-bottom: 1px solid var(--amber-faint); }
+    .row.head > div { font-size: .58em; color: var(--amber-dim); }
+    .row.head .p { text-align: center; }
+    .row.head .m { text-align: right; }
+  }
+
+  /* ---------- Settings ---------- */
+  .overlay {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 10;
+    background: rgba(0, 0, 0, .86);
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+    padding: 16px 12px 32px;
+    padding: calc(env(safe-area-inset-top) + 16px) 12px calc(env(safe-area-inset-bottom) + 32px);
+  }
+  .panel {
+    max-width: 520px; margin: 0 auto; padding: 18px;
+    background: #141414; color: #eee; border: 1px solid #333; border-radius: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400; font-size: 16px; line-height: 1.4; text-shadow: none;
+  }
+  .panel h2 { margin: 0 0 4px; font-size: 21px; color: var(--amber); }
+  .panel a { color: #ffcc66; }
+  .panel label { display: block; margin-top: 16px; font-weight: 600; font-size: 15px; }
+  .panel .hint { display: block; font-weight: 400; font-size: 13px; color: #a8a8a8; margin-top: 4px; }
+  .panel input[type="text"], .panel input[type="password"], .panel input[type="number"], .panel select {
+    display: block; width: 100%; margin-top: 6px; padding: 10px 12px;
+    font-size: 16px; font-family: inherit; color: #fff; background: #000;
+    border: 1px solid #484848; border-radius: 8px; -webkit-appearance: none; appearance: none;
+  }
+  .panel input:focus, .panel select:focus { border-color: var(--amber); outline: none; }
+  .panel input.code { text-transform: uppercase; max-width: 9em; letter-spacing: .08em; }
+  .panel input.code::placeholder { text-transform: none; letter-spacing: normal; }
+  .panel input.num { max-width: 7em; }
+  .keyrow { display: flex; align-items: center; margin-top: 6px; }
+  .keyrow input { flex: 1; min-width: 0; margin-top: 0 !important; }
+  .keyrow button { margin-left: 8px; }
+  .pair { display: flex; flex-wrap: wrap; }
+  .pair > label { flex: 1 1 140px; margin-right: 12px; }
+  .check { display: flex !important; align-items: center; }
+  .check input { width: 20px; height: 20px; margin: 0 10px 0 0; accent-color: #ffb000; }
+  .panel details { margin-top: 16px; }
+  .panel summary { cursor: pointer; color: #bbb; font-size: 14px; }
+  .steps { margin: 8px 0 0; padding-left: 20px; font-size: 14px; color: #ccc; }
+  .steps li { margin: 4px 0; }
+  .note { font-size: 13px; color: #a8a8a8; margin: 8px 0 0; }
+  .warnbox { margin-top: 14px; padding: 10px 12px; border-radius: 8px; font-size: 13px; background: #2a1a00; border: 1px solid #6b4a00; color: #ffd58a; }
+  .result { margin-top: 14px; font-size: 14px; min-height: 1px; }
+  .result.ok { color: #7be495; }
+  .result.err { color: #ff8f80; }
+  .result.busy { color: #bbb; }
+  .btns { display: flex; flex-wrap: wrap; margin-top: 16px; }
+  .btns button { margin: 0 8px 8px 0; }
+  .primary, .secondary {
+    border-radius: 8px; padding: 10px 16px; font-size: 16px; cursor: pointer;
+    font-family: inherit;
+  }
+  .primary { background: var(--amber); color: #000; border: 0; font-weight: 700; }
+  .secondary { background: #262626; color: #eee; border: 1px solid #484848; font-weight: 600; }
+  .primary:disabled, .secondary:disabled { opacity: .5; }
+  .credit { font-size: 12px; color: #8a8a8a; margin: 14px 0 0; }
+</style>
+</head>
+<body>
+<noscript><p style="padding:20px;color:#ffb000">This departure board needs JavaScript turned on.</p></noscript>
+
+<div id="app">
+  <header class="top">
+    <div class="station">
+      <span class="name" id="stationName">Redhill</span>
+      <span class="sub" id="boardSub">Departures</span>
+    </div>
+    <div class="clock" aria-label="Current time"><span id="clockHM">--:--</span><span class="sec" id="clockS">:--</span></div>
+    <button class="iconbtn" id="settingsBtn" type="button" aria-label="Settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6.6"/><path d="M12 2.6v2.8M12 18.6v2.8M21.4 12h-2.8M5.4 12H2.6M18.6 5.4l-2 2M7.4 16.6l-2 2M18.6 18.6l-2-2M7.4 7.4l-2-2"/></svg>
+    </button>
+  </header>
+
+  <div id="banner" class="banner hidden" role="status"></div>
+
+  <main id="board">
+    <div class="row head" aria-hidden="true"><div class="t">Time</div><div class="d">Destination</div><div class="p">Plat</div><div class="e">Expected</div><div class="m">Mins</div></div>
+    <div id="rows"></div>
+    <div id="empty" class="empty">Starting…</div>
+  </main>
+
+  <div id="ticker" class="hidden"><div class="marquee" id="tickerBox"></div></div>
+
+  <footer class="foot">
+    <span class="status"><span class="dot warn" id="dot"></span><span id="statusText">Starting…</span></span>
+    <button class="wake" id="wake" type="button"></button>
+    <button class="iconbtn" id="fsBtn" type="button" aria-label="Full screen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+    </button>
+  </footer>
+</div>
+
+<div id="settings" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="setTitle">
+  <form id="setForm" class="panel" novalidate autocomplete="off">
+    <h2 id="setTitle">Departure board settings</h2>
+
+    <div id="intro">
+      <p class="note" style="font-size:14px;color:#ccc">To show live trains, this board needs a free key from National Rail’s Rail Data Marketplace:</p>
+      <ol class="steps">
+        <li>Register at <a href="https://raildata.org.uk/registerPartner" target="_blank" rel="noopener">raildata.org.uk</a> and choose “Individual not affiliated with a company”.</li>
+        <li>Subscribe to the free <b>Live Departure Board</b> product.</li>
+        <li>Go to View subscriptions → Live Departure Board → Specification and copy the <b>Consumer key</b>.</li>
+      </ol>
+      <p class="note">Approval can take up to 3 working days. Tap <b>Show demo</b> to try the board meanwhile.</p>
+    </div>
+
+    <label for="fKey">Consumer key</label>
+    <div class="keyrow">
+      <input id="fKey" type="password" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Paste your key">
+      <button type="button" class="secondary" id="showKey">Show</button>
+    </div>
+
+    <div class="pair">
+      <label>Station code
+        <input id="fStation" class="code" type="text" maxlength="3" autocapitalize="characters" autocorrect="off" spellcheck="false" placeholder="RDH">
+        <span class="hint">Redhill is RDH.</span>
+      </label>
+      <label>Only trains calling at
+        <input id="fTo" class="code" type="text" maxlength="3" autocapitalize="characters" autocorrect="off" spellcheck="false" placeholder="optional">
+        <span class="hint">e.g. LBG London Bridge, VIC Victoria.</span>
+      </label>
+    </div>
+
+    <label>Hide trains leaving in under
+      <input id="fWalk" class="num" type="number" inputmode="numeric" min="0" max="60" step="1">
+      <span class="hint">Minutes. Set it to your walk to the station; 0 shows everything.</span>
+    </label>
+
+    <div class="pair">
+      <label>Rows to show
+        <select id="fRows">
+          <option value="0">Fill the screen</option>
+          <option value="3">3</option><option value="4">4</option><option value="5">5</option>
+          <option value="6">6</option><option value="7">7</option><option value="8">8</option>
+          <option value="9">9</option><option value="10">10</option>
+        </select>
+      </label>
+      <label>Refresh every
+        <select id="fRefresh">
+          <option value="15">15 seconds</option><option value="30">30 seconds</option>
+          <option value="60">1 minute</option><option value="120">2 minutes</option>
+        </select>
+      </label>
+    </div>
+
+    <label class="check"><input id="fDim" type="checkbox"> Dim the board from 23:00 to 06:00</label>
+
+    <details id="adv">
+      <summary>Advanced</summary>
+      <label>API address
+        <input id="fBase" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Leave blank to use the standard address">
+        <span class="hint">Only change this if your key won’t work: paste the URL shown on your subscription’s Specification tab.</span>
+      </label>
+    </details>
+
+    <div id="fileWarn" class="warnbox hidden">This page was opened straight from the phone’s storage. National Rail’s server may refuse requests from it, so host the file online (for example on GitHub Pages) and open that link instead.</div>
+
+    <div id="result" class="result" role="status"></div>
+
+    <div class="btns">
+      <button type="submit" class="primary" id="saveBtn">Save &amp; start</button>
+      <button type="button" class="secondary" id="testBtn">Test key</button>
+      <button type="button" class="secondary" id="demoBtn">Show demo</button>
+      <button type="button" class="secondary" id="closeBtn">Close</button>
+    </div>
+
+    <p class="note">Tip: to stop the phone sleeping, set Auto-Lock to Never (iPhone) or turn on Stay awake (Android). The board also asks the browser to keep the screen on.</p>
+    <p class="credit">Live data from National Rail Enquiries (Darwin) via the Rail Data Marketplace. Your key is saved only in this browser on this phone.</p>
+  </form>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // ---------------------------------------------------------------------------
+  // Configuration
+  // ---------------------------------------------------------------------------
+  // Rail Data Marketplace "Live Departure Board" addresses. The newest is tried
+  // first; the board remembers whichever one your key works with.
+  var API_BASES = [
+    'https://api1.raildata.org.uk/1010-live-departure-board-dep1_2/LDBWS/api/20220120',
+    'https://api1.raildata.org.uk/1010-live-departure-board-dep1_1/LDBWS/api/20220120',
+    'https://api1.raildata.org.uk/1010-live-departure-board-dep/LDBWS/api/20220120'
+  ];
+  var STORE = 'trainBoard.settings.v1';
+  // rows: 0 means "as many as fit on the screen" (up to 10)
+  var DEFAULTS = { key: '', station: 'RDH', to: '', walk: 0, rows: 0, refresh: 30, dim: false, base: '', workingBase: '' };
+  var REQUEST_TIMEOUT_MS = 15000;
+
+  // ---------------------------------------------------------------------------
+  // Small helpers
+  // ---------------------------------------------------------------------------
+  function $(id) { return document.getElementById(id); }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined && text !== null) e.textContent = text;
+    return e;
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function hhmm(d) { return pad(d.getHours()) + ':' + pad(d.getMinutes()); }
+  function isTime(s) { return /^\d{1,2}:\d{2}$/.test(String(s || '')); }
+  function asArray(x) { return x === undefined || x === null || x === '' ? [] : (Array.isArray(x) ? x : [x]); }
+  function asList(x, inner) {
+    if (x && !Array.isArray(x) && typeof x === 'object' && x[inner] !== undefined) return asArray(x[inner]);
+    return asArray(x);
+  }
+  function clampInt(v, lo, hi, dflt) {
+    v = parseInt(v, 10);
+    if (isNaN(v)) return dflt;
+    return Math.max(lo, Math.min(hi, v));
+  }
+  function unique(list) {
+    var seen = {}, out = [];
+    list.forEach(function (x) { if (!seen[x]) { seen[x] = true; out.push(x); } });
+    return out;
+  }
+  function parseQuery(q) {
+    var out = {};
+    String(q || '').replace(/^\?/, '').split('&').forEach(function (pair) {
+      if (!pair) return;
+      var i = pair.indexOf('=');
+      try {
+        var k = decodeURIComponent((i < 0 ? pair : pair.slice(0, i)).replace(/\+/g, ' '));
+        out[k] = i < 0 ? '' : decodeURIComponent(pair.slice(i + 1).replace(/\+/g, ' '));
+      } catch (e) { /* ignore malformed */ }
+    });
+    return out;
+  }
+
+  // Minutes from now until a UK "HH:MM" time, coping with midnight.
+  function minutesUntil(t, now) {
+    var m = /^(\d{1,2}):(\d{2})$/.exec(String(t || ''));
+    if (!m) return null;
+    var target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), +m[1], +m[2], 0, 0);
+    var diff = (target.getTime() - now.getTime()) / 60000;
+    if (diff < -720) diff += 1440;
+    else if (diff > 720) diff -= 1440;
+    return diff;
+  }
+  function minutesBetween(a, b) {
+    var ma = /^(\d{1,2}):(\d{2})$/.exec(a || ''), mb = /^(\d{1,2}):(\d{2})$/.exec(b || '');
+    if (!ma || !mb) return 0;
+    var d = (+mb[1] * 60 + +mb[2]) - (+ma[1] * 60 + +ma[2]);
+    if (d < -720) d += 1440;
+    else if (d > 720) d -= 1440;
+    return d;
+  }
+  function fmtAge(sec) {
+    sec = Math.max(0, Math.round(sec));
+    if (sec < 60) return sec + 's';
+    if (sec < 3600) return Math.floor(sec / 60) + ' min';
+    return Math.floor(sec / 3600) + 'h ' + Math.floor((sec % 3600) / 60) + 'm';
+  }
+  function htmlToText(html) {
+    var text = String(html || '');
+    if (!text) return '';
+    for (var pass = 0; pass < 2 && /[<&]/.test(text); pass++) {
+      try {
+        var prepared = text.replace(/<\s*br\s*\/?>/gi, ' ').replace(/<\/?\s*p[^>]*>/gi, ' ');
+        var doc = new DOMParser().parseFromString('<!DOCTYPE html><body>' + prepared + '</body>', 'text/html');
+        text = doc.body ? (doc.body.textContent || '') : prepared;
+      } catch (e) {
+        text = text.replace(/<[^>]*>/g, ' ');
+      }
+    }
+    return text.replace(/\s+/g, ' ').trim();
+  }
+
+  // Accepts a pasted product URL in any of its common forms and returns the
+  // ".../LDBWS/api/20220120" base. Returns '' for blank and null if invalid.
+  function normaliseBase(u) {
+    u = String(u || '').trim();
+    if (!u) return '';
+    if (!/^https:\/\/[^\s\/]+\/\S*$/i.test(u)) return null;
+    var m = /^(.*?\/api\/\d{8})(?:[\/?#]|$)/i.exec(u);
+    if (m) return m[1];
+    m = /^(.*?\/LDBWS)(?:[\/?#]|$)/i.exec(u);
+    if (m) return m[1] + '/api/20220120';
+    return u.replace(/[?#].*$/, '').replace(/\/+$/, '');
+  }
+
+  // ---------------------------------------------------------------------------
+  // Settings
+  // ---------------------------------------------------------------------------
+  function sanitize(s) {
+    s.key = String(s.key || '').replace(/\s+/g, '');
+    s.station = /^[A-Za-z]{3}$/.test(String(s.station || '')) ? String(s.station).toUpperCase() : 'RDH';
+    s.to = /^[A-Za-z]{3}$/.test(String(s.to || '')) ? String(s.to).toUpperCase() : '';
+    s.walk = clampInt(s.walk, 0, 60, 0);
+    s.rows = clampInt(s.rows, 0, 10, 0);
+    if (s.rows > 0 && s.rows < 3) s.rows = 3;
+    s.refresh = clampInt(s.refresh, 15, 300, 30);
+    s.dim = !!s.dim;
+    s.base = normaliseBase(s.base) || '';
+    s.workingBase = normaliseBase(s.workingBase) || '';
+    return s;
+  }
+  function copySettings(src) {
+    var s = {};
+    for (var k in DEFAULTS) if (Object.prototype.hasOwnProperty.call(DEFAULTS, k)) s[k] = src && src[k] !== undefined ? src[k] : DEFAULTS[k];
+    return s;
+  }
+  function loadSettings() {
+    var saved = null;
+    try { saved = JSON.parse(localStorage.getItem(STORE) || 'null'); } catch (e) { saved = null; }
+    return sanitize(copySettings(saved && typeof saved === 'object' ? saved : null));
+  }
+  function saveSettings() {
+    try { localStorage.setItem(STORE, JSON.stringify(state.s)); return true; } catch (e) { return false; }
+  }
+
+  // ---------------------------------------------------------------------------
+  // State
+  // ---------------------------------------------------------------------------
+  var params = parseQuery(location.search);
+  var reduceMotion = false;
+  try { reduceMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches); } catch (e) {}
+
+  var state = {
+    s: loadSettings(),
+    demo: params.demo !== undefined,
+    board: null,
+    lastOk: 0,
+    error: null,
+    failures: 0,
+    timer: null,
+    inFlight: false,
+    paused: false,
+    gen: 0,
+    sig: '',
+    rowRefs: [],
+    tickerText: '',
+    wake: null,
+    wakeState: ''
+  };
+  // Optional overrides from the address, e.g. index.html?station=REI&to=LBG (not saved)
+  if (params.station && /^[A-Za-z]{3}$/.test(params.station)) state.s.station = params.station.toUpperCase();
+  if (params.to !== undefined) state.s.to = /^[A-Za-z]{3}$/.test(params.to) ? params.to.toUpperCase() : '';
+
+  // ---------------------------------------------------------------------------
+  // Talking to National Rail (Rail Data Marketplace)
+  // ---------------------------------------------------------------------------
+  function boardUrl(base, s) {
+    var q = 'numRows=10&timeWindow=120';
+    if (s.to) q += '&filterCrs=' + s.to + '&filterType=to';
+    return base + '/GetDepBoardWithDetails/' + s.station + '?' + q;
+  }
+
+  function request(url, key) {
+    return new Promise(function (resolve) {
+      var ctrl = typeof AbortController === 'function' ? new AbortController() : null;
+      var done = false;
+      function finish(r) { if (!done) { done = true; clearTimeout(timer); resolve(r); } }
+      var timer = setTimeout(function () {
+        if (ctrl) { try { ctrl.abort(); } catch (e) {} }
+        finish({ status: 0, kind: 'timeout' });
+      }, REQUEST_TIMEOUT_MS);
+      var opts = { method: 'GET', headers: { 'x-apikey': key, 'Accept': 'application/json' }, credentials: 'omit', cache: 'no-store' };
+      if (ctrl) opts.signal = ctrl.signal;
+      var p;
+      try { p = fetch(url, opts); } catch (e) { finish({ status: 0, kind: 'network' }); return; }
+      p.then(function (res) {
+        return res.text().then(function (text) {
+          var body = null;
+          try { body = text ? JSON.parse(text) : null; } catch (e) { body = null; }
+          finish({ status: res.status, ok: res.ok, body: body, text: text || '' });
+        });
+      }).catch(function () { finish({ status: 0, kind: 'network' }); });
+    });
+  }
+
+  function candidateBases(s) {
+    if (s.base) return [s.base];
+    var list = [];
+    if (s.workingBase) list.push(s.workingBase);
+    API_BASES.forEach(function (b) { if (list.indexOf(b) < 0) list.push(b); });
+    return list;
+  }
+
+  function fetchBoard(s) {
+    var bases = candidateBases(s);
+    var results = [];
+    var i = 0;
+    function next() {
+      if (i >= bases.length) return Promise.resolve({ ok: false, error: explain(results, s) });
+      var base = bases[i++];
+      return request(boardUrl(base, s), s.key).then(function (r) {
+        r.base = base;
+        results.push(r);
+        if (r.ok && r.body && typeof r.body === 'object' && !r.body.fault) return { ok: true, raw: r.body, base: base };
+        if (r.status === 400 || r.status === 429) return { ok: false, error: explain(results, s) };
+        // The address that worked before can't be reached at all: it's the connection, not the address.
+        if (r.status === 0 && base === s.workingBase) return { ok: false, error: explain(results, s) };
+        return next();
+      });
+    }
+    return next();
+  }
+
+  function rank(r) {
+    if (r.status === 400) return 1;
+    if (r.status === 429) return 2;
+    if (r.status === 401 || r.status === 403) return 3;
+    if (r.status >= 500) return 4;
+    if (r.status === 404) return 5;
+    if (r.status > 0) return 6;
+    if (r.kind === 'timeout') return 7;
+    return 8;
+  }
+
+  function explain(results, s) {
+    var pick = null;
+    var first = results[0];
+    // If the address that worked last time is now failing for a non-key reason, report that.
+    if (first && s.workingBase && first.base === s.workingBase && [401, 403, 404].indexOf(first.status) < 0) pick = first;
+    if (!pick) results.forEach(function (r) { if (!pick || rank(r) < rank(pick)) pick = r; });
+    return describe(pick || { status: 0 }, s);
+  }
+
+  function describe(r, s) {
+    var st = r.status;
+    if (st === 400) {
+      return { kind: 'station', msg: 'National Rail didn’t accept the station code “' + s.station + '”' + (s.to ? ' or “' + s.to + '”' : '') + '. Check the codes in Settings.' };
+    }
+    if (st === 429) return { kind: 'rate', msg: 'National Rail says we’re asking too often. Slowing down for a couple of minutes.' };
+    if (st === 401 || st === 403) {
+      return { kind: 'key', msg: 'Your key was refused. Check it’s the Consumer key for “Live Departure Board” and that your subscription has been approved.' + (s.base ? ' Also check the API address under Advanced, or clear it.' : '') };
+    }
+    if (st >= 500) return { kind: 'server', msg: 'National Rail’s data service had a problem (error ' + st + '). Retrying…' };
+    if (st === 404) return { kind: 'url', msg: 'The API address wasn’t found. Copy the URL from your subscription’s Specification tab into Settings → Advanced.' };
+    if (st > 0) return { kind: 'format', msg: 'National Rail sent an unexpected reply (status ' + st + '). Retrying…' };
+    if (r.kind === 'timeout') return { kind: 'net', msg: 'National Rail took too long to answer. Retrying…' };
+    var msg = 'Can’t reach National Rail. Check this phone’s internet connection.';
+    if (location.protocol === 'file:') msg += ' This page was opened from the phone’s storage, which the data service may block: host it online instead.';
+    return { kind: 'net', msg: msg };
+  }
+
+  // ---------------------------------------------------------------------------
+  // Turning the reply into something we can draw
+  // ---------------------------------------------------------------------------
+  function callingLists(scp) {
+    var arr = asArray(scp);
+    if (!arr.length) return [];
+    if (arr[0] && arr[0].locationName !== undefined) return [arr]; // already a flat list
+    return arr.map(function (l) {
+      if (Array.isArray(l)) return l;
+      return asList(l && l.callingPoint !== undefined ? l.callingPoint : l, 'callingPoint');
+    }).filter(function (l) { return l.length; });
+  }
+
+  function pointText(cp, serviceCancelled) {
+    if (!cp) return '';
+    var name = cp.locationName || cp.crs || '';
+    if (!name) return '';
+    if (serviceCancelled) return name;
+    if (cp.isCancelled === true || /cancel/i.test(cp.et || '')) return name + ' (cancelled)';
+    var t = isTime(cp.et) ? cp.et : (isTime(cp.st) ? cp.st : '');
+    return t ? name + ' (' + t + ')' : name;
+  }
+
+  function msgText(m) {
+    if (typeof m === 'string') return htmlToText(m);
+    if (!m || typeof m !== 'object') return '';
+    return htmlToText(m.Value || m.value || m.xhtmlMessage || m.message || m.text || '');
+  }
+
+  function normService(x, isBus, filterName) {
+    var names = [], vias = [];
+    asArray(x.destination).forEach(function (d) {
+      if (d && d.locationName) names.push(d.locationName);
+      if (d && d.via) vias.push(d.via);
+    });
+    var cancelled = x.isCancelled === true || /cancel/i.test(x.etd || '');
+    var calling = callingLists(x.subsequentCallingPoints).map(function (list, i) {
+      var t = list.map(function (cp) { return pointText(cp, cancelled); }).filter(Boolean).join(', ');
+      return t && i > 0 ? 'Other portion: ' + t : t;
+    }).filter(Boolean).join('  ·  ');
+    var bus = isBus || String(x.serviceType || '').toLowerCase() === 'bus';
+    var len = parseInt(x.length, 10) || 0;
+    var info = [x.operator || '', len > 0 ? len + ' coaches' : '', bus ? 'Replacement bus' : ''].filter(Boolean).join(' · ');
+    var reason = htmlToText(cancelled ? (x.cancelReason || x.delayReason || '') : (x.delayReason || ''));
+    var alert = x.filterLocationCancelled === true ? 'Not stopping at ' + (filterName || 'your chosen station') : '';
+    return {
+      key: x.serviceID || x.serviceId || '',
+      std: x.std || '',
+      etd: x.etd || '',
+      platform: x.platform !== undefined && x.platform !== null ? String(x.platform) : '',
+      dest: names.join(' & ') || 'Check before travel',
+      via: vias.join(' '),
+      cancelled: cancelled,
+      bus: bus,
+      calling: calling,
+      info: info,
+      reason: reason,
+      alert: alert
+    };
+  }
+
+  function normaliseBoard(raw) {
+    raw = raw && typeof raw === 'object' ? raw : {};
+    var filterName = raw.filterLocationName || '';
+    var services = [];
+    asList(raw.trainServices, 'service').forEach(function (x) { if (x && isTime(x.std)) services.push(normService(x, false, filterName)); });
+    asList(raw.busServices, 'service').forEach(function (x) { if (x && isTime(x.std)) services.push(normService(x, true, filterName)); });
+    services.forEach(function (svc, i) { if (!svc.key) svc.key = svc.std + '|' + svc.dest + '|' + i; });
+    return {
+      station: raw.locationName || '',
+      filterName: filterName,
+      platformAvailable: raw.platformAvailable !== false,
+      services: services,
+      messages: unique(asList(raw.nrccMessages, 'message').map(msgText).filter(Boolean))
+    };
+  }
+
+  function statusOf(svc) {
+    if (svc.cancelled) return { label: '', text: 'Cancelled', cls: 'bad', expected: null };
+    var etd = svc.etd;
+    if (isTime(etd)) {
+      if (etd === svc.std) return { label: '', text: 'On time', cls: 'ok', expected: svc.std };
+      return { label: 'Exp ', text: etd, cls: minutesBetween(svc.std, etd) > 0 ? 'late' : 'ok', expected: etd };
+    }
+    if (/on\s*time/i.test(etd)) return { label: '', text: 'On time', cls: 'ok', expected: svc.std };
+    if (/delay/i.test(etd)) return { label: '', text: 'Delayed', cls: 'bad', expected: null };
+    return { label: '', text: etd, cls: '', expected: svc.std };
+  }
+
+  // ---------------------------------------------------------------------------
+  // Drawing the board
+  // ---------------------------------------------------------------------------
+  function visibleServices(now) {
+    var s = state.s, out = [];
+    state.board.services.forEach(function (svc, idx) {
+      var st = statusOf(svc);
+      var minsStd = minutesUntil(svc.std, now);
+      var mins = st.expected ? minutesUntil(st.expected, now) : minsStd;
+      // Already gone (data can be up to one refresh old)
+      if (st.expected && mins !== null && mins < -2) return;
+      if (svc.cancelled && minsStd !== null && minsStd < -2) return;
+      // Too soon to catch
+      if (s.walk > 0) {
+        if (st.expected && mins !== null && mins < s.walk) return;
+        if (svc.cancelled && minsStd !== null && minsStd < s.walk) return;
+      }
+      out.push({
+        svc: svc, st: st, idx: idx,
+        order: minsStd === null ? 9999 : minsStd,
+        sig: [svc.key, svc.std, svc.etd, svc.platform, svc.cancelled, svc.dest, svc.via, svc.calling, svc.info, svc.reason, svc.alert].join('~')
+      });
+    });
+    out.sort(function (a, b) { return (a.order - b.order) || (a.idx - b.idx); });
+    return out;
+  }
+
+  function platformFor(svc) {
+    if (svc.bus) return { text: 'BUS', kind: 'bus' };
+    if (svc.platform && state.board.platformAvailable) return { text: svc.platform, kind: 'plat' };
+    return { text: '–', kind: 'none' };
+  }
+
+  function buildRows(vis) {
+    var rowsEl = $('rows');
+    rowsEl.textContent = '';
+    state.rowRefs = [];
+    vis.forEach(function (v, i) {
+      var svc = v.svc;
+      var row = el('div', 'row' + (svc.cancelled ? ' cancelled' : ''));
+      row.appendChild(el('div', 't', svc.std));
+      var d = el('div', 'd', svc.dest);
+      if (svc.via) d.appendChild(el('span', 'via', svc.via));
+      row.appendChild(d);
+      var pf = platformFor(svc);
+      var p = el('div', 'p', pf.text);
+      p.setAttribute('data-kind', pf.kind);
+      row.appendChild(p);
+      var e = el('div', 'e ' + v.st.cls);
+      if (v.st.label) e.appendChild(el('span', 'lbl', v.st.label));
+      e.appendChild(document.createTextNode(v.st.text));
+      row.appendChild(e);
+      var m = el('div', 'm');
+      row.appendChild(m);
+
+      if (i === 0) {
+        var x = el('div', 'x');
+        if (svc.calling) {
+          var c = el('div', 'calling');
+          c.appendChild(el('span', 'lbl', 'Calling at:'));
+          var box = el('div', 'marquee');
+          box._text = svc.calling;
+          c.appendChild(box);
+          x.appendChild(c);
+        }
+        if (svc.info) x.appendChild(el('div', 'info', svc.info));
+        var why = svc.alert || svc.reason;
+        if (why) x.appendChild(el('div', 'reason' + (!svc.alert && !svc.cancelled && v.st.cls === 'late' ? ' late' : ''), why));
+        if (x.firstChild) row.appendChild(x);
+      } else if (svc.alert) {
+        var a = el('div', 'x');
+        a.appendChild(el('div', 'reason', svc.alert));
+        row.appendChild(a);
+      }
+      rowsEl.appendChild(row);
+      state.rowRefs.push({ m: m, v: v });
+    });
+    fitRows();
+    layoutAllMarquees('#rows .marquee');
+  }
+
+  function updateCountdowns(now) {
+    state.rowRefs.forEach(function (r) {
+      var v = r.v, txt = '';
+      if (!v.svc.cancelled && v.st.expected) {
+        var mins = minutesUntil(v.st.expected, now);
+        if (mins !== null) txt = mins < 1 ? 'Due' : Math.floor(mins) + ' min';
+      }
+      if (r.m.textContent !== txt) r.m.textContent = txt;
+    });
+  }
+
+  function updateEmpty(vis) {
+    var msg = '';
+    if (!state.board) {
+      if (state.demo) msg = 'Loading demo…';
+      else if (!state.s.key) msg = 'Add your free National Rail key in Settings to start.';
+      else msg = state.error ? 'Waiting for live data…' : 'Loading live departures…';
+    } else if (!vis.length) {
+      msg = state.s.walk ? 'No trains you can still catch in the next 2 hours.' : 'No departures in the next 2 hours.';
+    }
+    var e = $('empty');
+    if (e.textContent !== msg) e.textContent = msg;
+    var cls = msg ? 'empty' : 'empty hidden';
+    if (e.className === cls) return false;
+    e.className = cls;
+    return true;
+  }
+
+  function render() {
+    var now = new Date();
+    var vis = state.board ? visibleServices(now).slice(0, state.s.rows || 10) : [];
+    var sig = (state.board ? 'b' : '-') + '#' + vis.map(function (v) { return v.sig; }).join('|');
+    var emptyChanged = updateEmpty(vis);
+    if (sig !== state.sig) { state.sig = sig; buildRows(vis); }
+    else if (emptyChanged) fitRows();
+    updateCountdowns(now);
+  }
+
+  // Hide rows from the bottom until everything fits on screen
+  function fitRows() {
+    var board = $('board'), rows = $('rows').children;
+    for (var i = 0; i < rows.length; i++) rows[i].style.display = '';
+    for (var j = rows.length - 1; j > 0 && board.scrollHeight > board.clientHeight + 1; j--) rows[j].style.display = 'none';
+  }
+
+  // Scrolling text for calling points and service messages
+  function layoutMarquee(box) {
+    if (box._anim) { try { box._anim.cancel(); } catch (e) {} box._anim = null; }
+    var text = box._text || '';
+    box.textContent = '';
+    box.className = 'marquee';
+    var a = el('span', 'mq', text);
+    box.appendChild(a);
+    var boxW = box.clientWidth, textW = a.offsetWidth;
+    if (!boxW || textW <= boxW + 1) return;
+    if (reduceMotion || typeof a.animate !== 'function') { box.className = 'marquee wrap'; return; }
+    var gap = Math.round(Math.max(40, boxW * 0.3));
+    var track = el('span', 'track');
+    a.style.paddingRight = gap + 'px';
+    var b = el('span', 'mq', text);
+    b.style.paddingRight = gap + 'px';
+    b.setAttribute('aria-hidden', 'true');
+    track.appendChild(a);
+    track.appendChild(b);
+    box.textContent = '';
+    box.appendChild(track);
+    var fontPx = parseFloat(window.getComputedStyle(box).fontSize) || 14;
+    var dist = textW + gap;
+    var travel = dist / (fontPx * 3.4) * 1000;
+    var hold = 1800;
+    var total = travel + hold;
+    try {
+      box._anim = track.animate([
+        { transform: 'translateX(0px)', offset: 0 },
+        { transform: 'translateX(0px)', offset: hold / total },
+        { transform: 'translateX(' + (-dist) + 'px)', offset: 1 }
+      ], { duration: total, iterations: Infinity, easing: 'linear' });
+    } catch (e) {
+      box.textContent = '';
+      box.appendChild(el('span', 'mq', text));
+      box.className = 'marquee wrap';
+    }
+  }
+  function layoutAllMarquees(selector) {
+    var boxes = document.querySelectorAll(selector || '#app .marquee');
+    for (var i = 0; i < boxes.length; i++) layoutMarquee(boxes[i]);
+  }
+
+  function updateTicker() {
+    var text = state.board && state.board.messages.length ? state.board.messages.join('   •   ') : '';
+    if (text === state.tickerText) return;
+    state.tickerText = text;
+    $('ticker').className = text ? '' : 'hidden';
+    var box = $('tickerBox');
+    box._text = text;
+    if (text) layoutMarquee(box);
+    else { if (box._anim) { try { box._anim.cancel(); } catch (e) {} box._anim = null; } box.textContent = ''; }
+    fitRows();
+  }
+
+  function applyBoardMeta() {
+    var s = state.s;
+    var name = state.board && state.board.station ? state.board.station : (s.station === 'RDH' ? 'Redhill' : s.station);
+    $('stationName').textContent = name;
+    var sub = 'Departures';
+    if (s.to) sub += ' · calling at ' + (state.board && state.board.filterName ? state.board.filterName : s.to);
+    if (s.walk) sub += ' · hiding trains under ' + s.walk + ' min away';
+    $('boardSub').textContent = sub;
+    document.title = name + ' departures';
+  }
+
+  function setBanner(type, msg, withButton) {
+    var b = $('banner');
+    var key = type + '|' + msg + '|' + (withButton ? 1 : 0);
+    if (b._key === key) return;
+    b._key = key;
+    b.textContent = '';
+    if (!msg) { b.className = 'banner hidden'; fitRows(); return; }
+    b.className = 'banner ' + type;
+    b.appendChild(el('span', null, msg));
+    if (withButton) {
+      var x = el('button', 'linkbtn', 'Open settings');
+      x.type = 'button';
+      x.addEventListener('click', function () { openSettings(); });
+      b.appendChild(x);
+    }
+    fitRows();
+  }
+
+  function setStatus(dotCls, text) {
+    var d = $('dot');
+    if (d.className !== 'dot ' + dotCls) d.className = 'dot ' + dotCls;
+    var t = $('statusText');
+    if (t.textContent !== text) t.textContent = text;
+  }
+
+  function updateStatus(now) {
+    var s = state.s, board = $('board');
+    var stale = false;
+    if (state.demo) {
+      setStatus('demo', 'Demo data – not live');
+      setBanner('info', 'Demo mode: these trains are made up. Add your key in Settings to see live departures.', true);
+    } else if (!s.key) {
+      setStatus('bad', 'No key yet');
+      setBanner('warn', 'This board needs your free National Rail key.', true);
+    } else if (!state.lastOk) {
+      if (state.error) {
+        setStatus('bad', 'Not connected');
+        setBanner('', state.error.msg, state.error.kind === 'key' || state.error.kind === 'station' || state.error.kind === 'url');
+      } else {
+        setStatus('warn', 'Connecting…');
+        setBanner('', '', false);
+      }
+    } else {
+      var age = (now.getTime() - state.lastOk) / 1000;
+      stale = age > Math.max(s.refresh * 3, 120);
+      if (stale) {
+        setStatus('bad', 'Last update ' + fmtAge(age) + ' ago');
+        setBanner('', 'These times may be out of date. ' + (state.error ? state.error.msg : 'Trying again…'), !!state.error && state.error.kind === 'key');
+      } else if (state.error) {
+        setStatus('warn', 'Updated ' + fmtAge(age) + ' ago · retrying');
+        setBanner('', '', false);
+      } else {
+        setStatus('ok', 'Live · updated ' + fmtAge(age) + ' ago');
+        setBanner('', '', false);
+      }
+    }
+    var want = stale ? 'stale' : '';
+    if (board.className !== want) board.className = want;
+  }
+
+  function updateClock(now) {
+    var hm = hhmm(now), sec = ':' + pad(now.getSeconds());
+    if ($('clockHM').textContent !== hm) $('clockHM').textContent = hm;
+    $('clockS').textContent = sec;
+  }
+
+  function updateNight(now) {
+    var h = now.getHours();
+    var on = state.s.dim && (h >= 23 || h < 6);
+    if (document.body.classList.contains('night') !== on) document.body.classList.toggle('night', on);
+  }
+
+  function tick() {
+    var now = new Date();
+    updateClock(now);
+    render();
+    updateStatus(now);
+    updateNight(now);
+  }
+
+  // ---------------------------------------------------------------------------
+  // Refresh loop
+  // ---------------------------------------------------------------------------
+  function schedule(ms) {
+    clearTimeout(state.timer);
+    state.timer = setTimeout(poll, Math.max(0, ms));
+  }
+
+  function poll() {
+    state.timer = null;
+    var s = state.s;
+    if (state.demo) {
+      state.board = normaliseBoard(demoRaw(new Date()));
+      state.lastOk = Date.now();
+      state.error = null;
+      applyBoardMeta();
+      updateTicker();
+      tick();
+      schedule(s.refresh * 1000);
+      return;
+    }
+    if (!s.key) { tick(); return; }
+    if (document.hidden) { state.paused = true; return; }
+    if (state.inFlight) return;
+    state.inFlight = true;
+    var gen = state.gen;
+    fetchBoard(s).then(function (res) {
+      state.inFlight = false;
+      if (gen !== state.gen) { poll(); return; } // settings changed while we were waiting
+      if (res.ok) {
+        state.board = normaliseBoard(res.raw);
+        state.lastOk = Date.now();
+        state.error = null;
+        state.failures = 0;
+        if (!s.base && res.base !== s.workingBase) { s.workingBase = res.base; saveSettings(); }
+        applyBoardMeta();
+        updateTicker();
+        schedule(s.refresh * 1000);
+      } else {
+        state.error = res.error;
+        state.failures++;
+        var wait = Math.min(s.refresh * 1000 * Math.pow(2, Math.min(state.failures, 4)), 5 * 60 * 1000);
+        if (res.error.kind === 'rate') wait = Math.max(wait, 120000);
+        if (res.error.kind === 'key' || res.error.kind === 'station' || res.error.kind === 'url') wait = Math.max(wait, 60000);
+        schedule(wait);
+      }
+      tick();
+    });
+  }
+
+  function restart() {
+    state.gen++;
+    state.board = null;
+    state.lastOk = 0;
+    state.error = null;
+    state.failures = 0;
+    state.sig = '';
+    clearTimeout(state.timer);
+    state.timer = null;
+    applyBoardMeta();
+    updateTicker();
+    tick();
+    poll();
+  }
+
+  // ---------------------------------------------------------------------------
+  // Demo data (clearly labelled, generated around the current time)
+  // ---------------------------------------------------------------------------
+  var VIC = ['Merstham', 'Coulsdon South', 'Purley', 'East Croydon', 'Clapham Junction', 'London Victoria'];
+  var LBG = ['Merstham', 'Coulsdon South', 'East Croydon', 'Norwood Junction', 'London Bridge'];
+  var RDG = ['Reigate', 'Betchworth', 'Dorking Deepdene', 'Gomshall', 'Chilworth', 'Shalford', 'Guildford', 'Ash', 'North Camp', 'Farnborough North', 'Blackwater', 'Sandhurst', 'Crowthorne', 'Wokingham', 'Winnersh', 'Reading'];
+  var DEMO = [
+    { m: 2, dest: 'London Victoria', op: 'Southern', plat: '1', len: 8, calls: VIC },
+    { m: 6, dest: 'Peterborough', op: 'Thameslink', plat: '1', len: 12, calls: ['East Croydon', 'London Bridge', 'London Blackfriars', 'City Thameslink', 'Farringdon', 'St Pancras International', 'Finsbury Park', 'Stevenage', 'Hitchin', 'Biggleswade', 'St Neots', 'Huntingdon', 'Peterborough'] },
+    { m: 11, dest: 'Reading', op: 'Great Western Railway', plat: '2', len: 3, late: 4, reason: 'This train has been delayed by a late running train being in front of this one', calls: RDG },
+    { m: 17, dest: 'London Bridge', op: 'Southern', plat: '1', len: 8, calls: LBG },
+    { m: 24, dest: 'Gatwick Airport', op: 'Great Western Railway', plat: '3', len: 3, calls: ['Gatwick Airport'] },
+    { m: 29, dest: 'Tonbridge', op: 'Southern', plat: '0', len: 2, cancel: 'This train has been cancelled because of a shortage of train crew', calls: ['Nutfield', 'Godstone', 'Edenbridge', 'Penshurst', 'Leigh', 'Tonbridge'] },
+    { m: 32, dest: 'London Victoria', op: 'Southern', plat: '1', len: 8, calls: VIC },
+    { m: 36, dest: 'Bedford', op: 'Thameslink', plat: '1', len: 8, calls: ['East Croydon', 'London Bridge', 'London Blackfriars', 'City Thameslink', 'Farringdon', 'St Pancras International', 'West Hampstead Thameslink', 'St Albans City', 'Harpenden', 'Luton Airport Parkway', 'Luton', 'Bedford'] },
+    { m: 41, dest: 'Reading', op: 'Great Western Railway', plat: '2', len: 3, calls: RDG },
+    { m: 47, dest: 'London Bridge', op: 'Southern', plat: '1', len: 8, calls: LBG },
+    { m: 54, dest: 'Gatwick Airport', op: 'Great Western Railway', plat: '3', len: 3, calls: ['Gatwick Airport'] },
+    { m: 58, dest: 'Horsham', op: 'Thameslink', plat: '2', len: 8, calls: ['Earlswood (Surrey)', 'Salfords', 'Horley', 'Gatwick Airport', 'Three Bridges', 'Crawley', 'Ifield', 'Faygate', 'Littlehaven', 'Horsham'] }
+  ];
+
+  function demoRaw(now) {
+    var hourStart = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), 0, 0, 0).getTime();
+    var services = [];
+    for (var h = 0; h < 3; h++) {
+      for (var i = 0; i < DEMO.length; i++) {
+        var p = DEMO[i];
+        var dep = hourStart + (h * 60 + p.m) * 60000;
+        var mins = (dep - now.getTime()) / 60000;
+        if (mins < -0.5 || mins > 120 || services.length >= 10) continue;
+        var late = p.late || 0;
+        services.push({
+          std: hhmm(new Date(dep)),
+          etd: p.cancel ? 'Cancelled' : (late ? hhmm(new Date(dep + late * 60000)) : 'On time'),
+          platform: p.plat,
+          operator: p.op,
+          length: p.len,
+          isCancelled: !!p.cancel,
+          cancelReason: p.cancel || null,
+          delayReason: late ? p.reason : null,
+          serviceID: 'demo-' + h + '-' + i,
+          destination: [{ locationName: p.dest }],
+          subsequentCallingPoints: [{
+            callingPoint: p.calls.map(function (name, k) {
+              var st = dep + (k + 1) * 4 * 60000;
+              return { locationName: name, st: hhmm(new Date(st)), et: p.cancel ? 'Cancelled' : (late ? hhmm(new Date(st + late * 60000)) : 'On time'), isCancelled: !!p.cancel };
+            })
+          }]
+        });
+      }
+    }
+    return {
+      locationName: 'Redhill',
+      crs: 'RDH',
+      platformAvailable: true,
+      trainServices: services,
+      nrccMessages: [{ Value: '<p>Demo mode: these trains are examples, not live data. Open Settings and add your free key to see real departures.</p>' }]
+    };
+  }
+
+  // ---------------------------------------------------------------------------
+  // Settings panel
+  // ---------------------------------------------------------------------------
+  function showResult(cls, msg) {
+    var r = $('result');
+    r.className = 'result ' + (cls || '');
+    r.textContent = msg || '';
+  }
+
+  function openSettings() {
+    var s = state.s;
+    $('fKey').value = s.key;
+    $('fKey').type = 'password';
+    $('showKey').textContent = 'Show';
+    $('fStation').value = s.station;
+    $('fTo').value = s.to;
+    $('fWalk').value = String(s.walk);
+    $('fRows').value = String(s.rows);
+    $('fRefresh').value = String([15, 30, 60, 120].indexOf(s.refresh) >= 0 ? s.refresh : 30);
+    $('fDim').checked = s.dim;
+    $('fBase').value = s.base;
+    $('adv').open = !!s.base;
+    $('intro').className = s.key ? 'hidden' : '';
+    $('fileWarn').className = location.protocol === 'file:' ? 'warnbox' : 'warnbox hidden';
+    $('closeBtn').className = s.key || state.demo ? 'secondary' : 'secondary hidden';
+    showResult('', '');
+    $('settings').className = 'overlay';
+    if (!s.key) { try { $('fKey').focus(); } catch (e) {} }
+  }
+  function closeSettings() { $('settings').className = 'overlay hidden'; }
+  function settingsOpen() { return $('settings').className.indexOf('hidden') < 0; }
+
+  function readForm() {
+    var s = copySettings(state.s);
+    var errors = [];
+    s.key = $('fKey').value.replace(/\s+/g, '');
+    s.station = $('fStation').value.trim().toUpperCase();
+    s.to = $('fTo').value.trim().toUpperCase();
+    s.walk = $('fWalk').value;
+    s.rows = $('fRows').value;
+    s.refresh = $('fRefresh').value;
+    s.dim = $('fDim').checked;
+    var rawBase = $('fBase').value.trim();
+    if (!/^[A-Z]{3}$/.test(s.station)) errors.push('The station code must be 3 letters (Redhill is RDH).');
+    if (s.to && !/^[A-Z]{3}$/.test(s.to)) errors.push('The “calling at” code must be 3 letters, or leave it blank.');
+    if (s.to && s.to === s.station) errors.push('The “calling at” station can’t be the same as the board’s station.');
+    if (rawBase && normaliseBase(rawBase) === null) errors.push('The API address must start with https://');
+    s.base = rawBase;
+    return { s: sanitize(s), errors: errors };
+  }
+
+  function onSave(ev) {
+    if (ev) ev.preventDefault();
+    var f = readForm();
+    if (f.errors.length) { showResult('err', f.errors.join(' ')); return; }
+    if (!f.s.key) { showResult('err', 'Paste your Consumer key first, or tap Show demo.'); return; }
+    var old = state.s;
+    if (f.s.key !== old.key || f.s.base !== old.base) f.s.workingBase = '';
+    state.s = f.s;
+    var saved = saveSettings();
+    state.demo = false;
+    closeSettings();
+    restart();
+    if (!saved) setTimeout(function () { setBanner('warn', 'This browser wouldn’t save the settings, so you’ll need to enter them again after a reload.', false); }, 50);
+    requestWake();
+  }
+
+  function onTest() {
+    var f = readForm();
+    if (f.errors.length) { showResult('err', f.errors.join(' ')); return; }
+    if (!f.s.key) { showResult('err', 'Paste your Consumer key first.'); return; }
+    if (f.s.key !== state.s.key || f.s.base !== state.s.base) f.s.workingBase = '';
+    var btn = $('testBtn');
+    btn.disabled = true;
+    showResult('busy', 'Testing…');
+    fetchBoard(f.s).then(function (res) {
+      btn.disabled = false;
+      if (res.ok) {
+        var b = normaliseBoard(res.raw);
+        var n = b.services.length;
+        showResult('ok', '✓ Working. ' + (b.station || f.s.station) + ': ' + n + (n === 1 ? ' departure' : ' departures') + ' in the next 2 hours. Tap Save & start.');
+      } else {
+        showResult('err', '✕ ' + res.error.msg);
+      }
+    });
+  }
+
+  // ---------------------------------------------------------------------------
+  // Keeping the screen on, full screen
+  // ---------------------------------------------------------------------------
+  function setWake(w) {
+    state.wakeState = w;
+    var b = $('wake');
+    var text = w === 'on' ? '☀︎ Screen stays on' : (w === 'off' ? 'Tap to keep screen on' : '');
+    if (b.textContent !== text) b.textContent = text;
+    b.className = text ? 'wake' : 'wake hidden';
+  }
+  function requestWake() {
+    var wl = navigator.wakeLock;
+    if (!wl || typeof wl.request !== 'function') { setWake(''); return; }
+    if (state.wake || state.wakePending || document.hidden) return;
+    state.wakePending = true;
+    wl.request('screen').then(function (lock) {
+      state.wakePending = false;
+      state.wake = lock;
+      setWake('on');
+      lock.addEventListener('release', function () { state.wake = null; setWake('off'); });
+    }).catch(function () { state.wakePending = false; setWake('off'); });
+  }
+
+  function setupFullscreen() {
+    var root = document.documentElement;
+    var can = !!(document.fullscreenEnabled || document.webkitFullscreenEnabled) && !!(root.requestFullscreen || root.webkitRequestFullscreen);
+    var btn = $('fsBtn');
+    if (!can) { btn.className = 'iconbtn hidden'; return; }
+    btn.addEventListener('click', function () {
+      try {
+        if (document.fullscreenElement || document.webkitFullscreenElement) {
+          (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+        } else {
+          var p = (root.requestFullscreen || root.webkitRequestFullscreen).call(root);
+          if (p && typeof p.catch === 'function') p.catch(function () {});
+        }
+      } catch (e) {}
+    });
+  }
+
+  // ---------------------------------------------------------------------------
+  // Wiring it up
+  // ---------------------------------------------------------------------------
+  $('settingsBtn').addEventListener('click', openSettings);
+  $('setForm').addEventListener('submit', onSave);
+  $('testBtn').addEventListener('click', onTest);
+  $('demoBtn').addEventListener('click', function () {
+    state.demo = true;
+    closeSettings();
+    restart();
+    requestWake();
+  });
+  $('closeBtn').addEventListener('click', closeSettings);
+  $('showKey').addEventListener('click', function () {
+    var k = $('fKey');
+    var show = k.type === 'password';
+    k.type = show ? 'text' : 'password';
+    this.textContent = show ? 'Hide' : 'Show';
+  });
+  $('wake').addEventListener('click', requestWake);
+  document.addEventListener('keydown', function (e) {
+    if ((e.key === 'Escape' || e.key === 'Esc') && settingsOpen() && (state.s.key || state.demo)) closeSettings();
+  });
+  // Any tap on the board is a chance to (re)request the screen wake lock
+  $('app').addEventListener('click', function () { if (!state.wake) requestWake(); });
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) return;
+    requestWake();
+    if (state.paused || !state.timer) { state.paused = false; if (!state.inFlight) poll(); }
+    else if (!state.demo && Date.now() - state.lastOk > state.s.refresh * 1000) schedule(0);
+  });
+  window.addEventListener('online', function () { if (!state.inFlight) schedule(0); });
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () { fitRows(); layoutAllMarquees(); }, 200);
+  });
+
+  setupFullscreen();
+  setWake('');
+  applyBoardMeta();
+  tick();
+  // Line the clock up with the start of each second
+  setTimeout(function () { tick(); setInterval(tick, 1000); }, 1005 - (Date.now() % 1000));
+  if (!state.s.key && !state.demo) openSettings();
+  poll();
+  requestWake();
+})();
+</script>
+</body>
+</html>
